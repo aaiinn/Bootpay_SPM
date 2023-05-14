@@ -13,11 +13,19 @@ let package = Package(
             targets: ["Bootpay_SPM"]
         ),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift", from: "1.7.1"),
+        .package(url: "https://github.com/tristanhimmelman/ObjectMapper", from: "4.2.0"),
+        .package(url: "https://github.com/ninjaprox/NVActivityIndicatorView", from: "5.1.1")
+    ],
     targets: [
         .target(
             name: "Bootpay_SPM",
-            dependencies: [],
+            dependencies: [
+                .product(name: "CryptoSwift", package: "CryptoSwift"),
+                .product(name: "ObjectMapper", package: "ObjectMapper"),
+                .product(name: "NVActivityIndicatorView", package: "NVActivityIndicatorView")
+            ],
             path: "Sources"
         ),
         .testTarget(
