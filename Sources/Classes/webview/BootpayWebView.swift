@@ -7,7 +7,9 @@
  
 import WebKit
 import NVActivityIndicatorView
-
+import Foundation
+#if canImport(UIKit)
+import UIKit
 
 @objc open class BootpayWebView: BTView {
     @objc public var webview: WKWebView!
@@ -516,3 +518,4 @@ extension BootpayWebView {
         return isMatch(urlString, "\\/\\/itunes\\.apple\\.com\\/")
     }
 }
+#endif

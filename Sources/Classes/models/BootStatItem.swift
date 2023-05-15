@@ -6,6 +6,7 @@
 //
 
 import ObjectMapper
+import Foundation
 
 public class BootpayStatItem: NSObject, Mappable, Codable {
     

@@ -6,6 +6,7 @@
 //
 
 import ObjectMapper
+import Foundation
 
 open class Payload: NSObject, Mappable, Codable {
     public override init() {}

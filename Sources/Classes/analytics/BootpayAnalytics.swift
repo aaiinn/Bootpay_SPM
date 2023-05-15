@@ -6,6 +6,8 @@
 //  Copyright © 2017년 bootpay.co.kr. All rights reserved.
 //
 import Foundation
+#if canImport(UIKit)
+import UIKit
  
 //MARK: Bootpay Rest Api for Analytics
 @objc public class BootpayAnalytics:  NSObject {
@@ -126,3 +128,4 @@ import Foundation
         }
     }
 }
+#endif

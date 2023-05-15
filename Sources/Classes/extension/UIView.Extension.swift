@@ -7,6 +7,8 @@
 
 import Foundation
 
+#if canImport(UIKit)
+import UIKit
 
 extension UIView {
   public var safeTopAnchor: NSLayoutYAxisAnchor {
@@ -37,3 +39,5 @@ extension UIView {
     return bottomAnchor
   }
 }
+
+#endif

@@ -8,6 +8,8 @@
 
 
 import Foundation
+#if canImport(UIKit)
+import UIKit
 
 public class BootpayConstant {
     
@@ -174,3 +176,4 @@ public class BootpayConstant {
         return String(data: try! encoder.encode(payload), encoding: .utf8)!
     }
 }
+#endif

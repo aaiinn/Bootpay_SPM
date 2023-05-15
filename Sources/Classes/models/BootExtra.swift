@@ -5,6 +5,7 @@
 //  Created by Taesup Yoon on 2021/05/10.
 //
 import ObjectMapper
+import Foundation
 
 
 public class BootExtra: NSObject, Mappable, Codable {

@@ -6,6 +6,7 @@
 //
 
 import ObjectMapper
+import Foundation
 
 public class BootOneStore: NSObject, Mappable, Codable {
     

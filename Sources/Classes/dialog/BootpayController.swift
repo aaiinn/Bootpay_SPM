@@ -4,6 +4,8 @@
 //
 //  Created by Taesup Yoon on 2021/05/12.
 //
+#if canImport(UIKit)
+import UIKit
 
 class BootpayController: BTViewController {
     let bootpayWebView = BootpayWebView()
@@ -34,3 +36,4 @@ class BootpayController: BTViewController {
         Bootpay.shared.debounceClose()
     }
 }
+#endif

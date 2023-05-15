@@ -7,6 +7,8 @@
 
 import Foundation
 import WebKit
+#if canImport(UIKit)
+import UIKit
 
 @objc public class Bootpay: NSObject {
     @objc public static let shared = Bootpay()
@@ -378,3 +380,4 @@ extension Bootpay {
         return ""
     }
 }
+#endif
