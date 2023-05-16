@@ -5,7 +5,7 @@
 //  Created by Taesup Yoon on 2021/12/09.
 //
 #if canImport(UIKit)
-import UiKit
+import UIKit
 
 enum DeviceHelper {
     case nativeMac
