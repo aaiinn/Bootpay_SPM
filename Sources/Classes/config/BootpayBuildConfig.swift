@@ -6,7 +6,7 @@
 //
 import Foundation
 #if canImport(UIKit)
-import UiKit
+import UIKit
 
 #if os(macOS)
 public typealias BTNavigationController = NSPageController

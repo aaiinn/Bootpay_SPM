@@ -4,7 +4,57 @@
 
     ],
     "dependencies" : [
-
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "cryptoswift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/krzyzanowskim/CryptoSwift",
+          "name" : "CryptoSwift"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "eee9ad754926c40a0f7e73f152357d37b119b7fa",
+            "version" : "1.7.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "CryptoSwift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "nvactivityindicatorview",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/ninjaprox/NVActivityIndicatorView",
+          "name" : "NVActivityIndicatorView"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "bcb52371f2259254bac6690f92bb474a61768c47",
+            "version" : "5.1.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "NVActivityIndicatorView"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "objectmapper",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/tristanhimmelman/ObjectMapper",
+          "name" : "ObjectMapper"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "0b96a734de3ea1c87374ae677064f86adb0716ec",
+            "version" : "4.2.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "ObjectMapper"
+      }
     ]
   },
   "version" : 6
